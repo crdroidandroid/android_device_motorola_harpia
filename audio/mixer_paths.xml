@@ -494,6 +494,7 @@
 	<path name="speaker">
 		<ctl name="Speaker Boost" value="ENABLE" />
 		<ctl name="RX3 MIX1 INP1" value="RX1" />
+		<ctl name="RX3 Digital Volume" value="88" />
 		<ctl name="SPK DAC Switch" value="1" />
 	</path>
 
@@ -506,7 +507,7 @@
 		<ctl name="EAR PA Boost" value="ENABLE" />
 		<ctl name="RX1 MIX1 INP1" value="RX1" />
 		<ctl name="RDAC2 MUX" value="RX1" />
-		<ctl name="RX1 Digital Volume" value="84" />
+		<ctl name="RX1 Digital Volume" value="88" />
 		<ctl name="EAR PA Gain" value="POS_1P5_DB" />
 		<ctl name="EAR_S" value="Switch" />
 	</path>
@@ -670,6 +671,8 @@
 
 	<path name="handset-stereo-dmic-ef">
 		<path name="dmic-endfire" />
+		<ctl name="ADC1 Volume" value="40" />
+		<ctl name="ADC3 Volume" value="40" />
 	</path>
 
 	<path name="speaker-stereo-dmic-ef">
